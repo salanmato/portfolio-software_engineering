@@ -1,6 +1,6 @@
 # Gerenciador de Tarefas Ágil
 
-Repositório criado para simular o desenvolvimento de um sistema de gerenciamento de tarefas baseado em metodologias ágeis, como parte da disciplina de Engenharia de Software.
+Repositório criado para simular o desenvolvimento de sistema de gerenciamento de tarefas baseado em metodologias ágeis, como parte da disciplina de Engenharia de Software.
 
 ## Objetivo do Projeto
 
@@ -8,7 +8,7 @@ Desenvolver uma aplicação web que permita:
 
 - Criar, visualizar e excluir tarefas.
 - Acompanhar prioridades das tarefas (Alta, Média, Baixa).
-- Simular um ambiente de desenvolvimento ágil usando GitHub como ferramenta de versionamento e controle de qualidade.
+- Simular ambiente de desenvolvimento ágil usando GitHub como ferramenta de versionamento e controle de qualidade.
 
 ---
 
@@ -16,9 +16,9 @@ Desenvolver uma aplicação web que permita:
 
 Este sistema tem:
 
-- Um **frontend** simples com HTML, CSS e JavaScript puro.
-- Um **backend** em Node.js usando Express.
-- Um **Kanban** configurado na aba **Projects** deste repositório.
+- **frontend** simples com HTML, CSS e JavaScript puro.
+- **backend** em Node.js usando Express.
+- **Kanban** configurado na aba **Projects** deste repositório.
 
 ---
 

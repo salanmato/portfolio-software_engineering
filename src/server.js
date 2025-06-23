@@ -1,8 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-const app = express();
-const port = process.env.PORT || 3000;
 
+const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
@@ -24,4 +23,11 @@ app.delete("/tasks/:id", (req, res) => {
   res.status(204).end();
 });
 
-app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
+// Exporta o app para testes
+module.exports = app;
+
+// Executa o servidor apenas se este arquivo for executado diretamente
+if (require.main === module) {
+  const port = process.env.PORT || 3000;
+  app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
+}
